@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "What.cd",
+	"description": "Right-click artist/album search on W.CD",
+	"default_locale": "en",
+	"version": "1.2",
+	"permissions": ["contextMenus", "tabs"],
+	"background": {
+		"scripts": ["js/wcd.js"],
+		"persistent": true
+	},
+	"minimum_chrome_version": "6.0.472",
+	"icons": {
+		"16": "images/16x16.png",
+		"48": "images/48x48.png",
+		"128": "images/128x128.png"
+	}
+}
